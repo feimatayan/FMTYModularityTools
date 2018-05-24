@@ -6,7 +6,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "NSDateFormatter+Category.h"
 
 @interface UIImage (Bundle)
 + (instancetype)ff_imagePathWithName:(NSString *)imageName bundle:(NSString *)bundle targetClass:(Class)targetClass;
