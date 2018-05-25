@@ -16,7 +16,7 @@
     // Drawing code
 }
 */
-+(id)xibView{
-    return  [[[NSBundle mainBundle] loadNibNamed:@"xibName" owner:self options:nil] lastObject];
++(id)xibView:(NSString *)nibName{
+    return  [[[NSBundle mainBundle] loadNibNamed:nibName owner:self options:nil] lastObject];
 }
 @end

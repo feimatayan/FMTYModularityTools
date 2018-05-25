@@ -8,6 +8,6 @@
 #import <UIKit/UIKit.h>
 
 @interface XibView : UIView
-+(id)xibView;
++(id)xibView:(NSString *)nibName;
 
 @end
